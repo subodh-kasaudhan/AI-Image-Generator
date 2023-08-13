@@ -1,6 +1,6 @@
 # AI Image Generator
 ![Screenshot 2023-08-13 165825](https://github.com/subodh-kasaudhan/AI-Image-Generator/assets/75174930/123de803-1bef-4acf-8d0b-94bbcba0fe56)
-A fully responsive text-to-image AI web app built with React that generates 1024x1024 images based on the prompt provided with the help of the OpenAI API. The user can pick their own prompt or choose from a predefined array of 50 prompts using the "Surprise Me" button. Once the image has been generated, the user can push it to Cloudinary, where it is fetched and displayed on the home feed. The home feed displays all the generated images and, upon hovering, shows the creator's name and a download icon for users to download the image.
+A fully responsive text-to-image AI web app built with React (the MERN stack) that generates 1024x1024 images based on the prompt provided with the help of the OpenAI API. The user can pick their own prompt or choose from a predefined array of 50 prompts using the "Surprise Me" button. Once the image has been generated, the user can push it to Cloudinary, where it is fetched and displayed on the home feed. The home feed displays all the generated images and, upon hovering, shows the creator's name and a download icon for users to download the image.
 
 The site is live <a href="https://subodh-ai-image-generator.netlify.app/" target="_blank">here</a>
 
