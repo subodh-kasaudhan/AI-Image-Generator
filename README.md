@@ -1,6 +1,7 @@
 # AI Image Generator
 
 A fully responsive text-to-image AI web app built with React that generates 1024x1024 images based on the prompt provided with the help of the OpenAI API. The user can pick their own prompt or choose from a predefined array of 50 prompts using the "Surprise Me" button. Once the image has been generated, the user can push it to Cloudinary, from where it is fetched and displayed on the home feed. The home feed displays all the generated images and, upon hover, shows the name of the creator and a download icon for users to download the image.
+The site is live here
 
 ## How to Run
 
@@ -19,8 +20,7 @@ git clone https://github.com/your-username/AI-image-generator.git
 ```
 
 2. In the client side, go to CreatePost.jsx and Home.jsx inside page folder and do these changes -
-   http://localhost:8080/api/v1/dalle
-   http://localhost:8080/api/v1/post
+   replace 'https://dall-e-t6es.onrender.com/' with 'http://localhost:8080' everywhere to test on your local machine
 
 ```bash
 git clone https://github.com/your-username/AI-image-generator.git
