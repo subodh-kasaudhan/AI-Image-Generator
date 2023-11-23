@@ -20,44 +20,33 @@ Follow these steps to run the AI Image Generator web app:
 git clone https://github.com/your-username/AI-image-generator.git
 ```
 
-2. On the client-side, go to CreatePost.jsx and Home.jsx inside the page folder and make these changes -
-   replace
-   ```https://dall-e-t6es.onrender.com/```
-   with
-   ```http://localhost:8080```
-   to test on your local machine
-
-```bash
-git clone https://github.com/your-username/AI-image-generator.git
-```
-
-3. Navigate to the client directory and install dependencies.
+2. Navigate to the client directory and install dependencies.
 
 ```bash
 cd AI-image-generator/client
 npm install
 ```
 
-4. Start the client-side of the app.
+3. Start the client-side of the app.
 
 ```bash
 npm run dev
 ```
 
-5. Split up the terminal, navigate to the server directory, and install dependencies.
+4. Split up the terminal, navigate to the server directory, and install dependencies.
 
 ```bash
 cd ../server
 npm install
 ```
 
-6. Start the server-side of the app.
+5. Start the server-side of the app.
 
 ```bash
 npm start
 ```
 
-7. The app should now be running. Open your web browser and go to `http://localhost:8080` to access the AI Image Generator web app.
+6. The app should now be running. Open your web browser and go to `http://localhost:8080` to access the AI Image Generator web app.
 
 ### Generating Images
 
